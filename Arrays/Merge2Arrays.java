@@ -2,6 +2,7 @@ package JAVA.Arrays;
 /**
  * Merge2Arrays
  */
+
 public class Merge2Arrays {
 
     public static void main(String[] args) {
