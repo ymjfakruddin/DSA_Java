@@ -4,5 +4,6 @@
             "filePath": "Patterns\\Square_Pattern.java",
             "group": "Default"
         }
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
