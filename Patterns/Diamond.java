@@ -2,10 +2,10 @@ package Patterns;
 
 public class Diamond {
     public static void main(String[] args) {
-        int n=3;
+        int n=4;
         int i = 1;
         while(i<=n){
-            int j=3;
+            int j=n;
             while(j>i){
                 System.out.print(" ");
                 j--;
@@ -26,7 +26,7 @@ public class Diamond {
             System.out.println();
         }
 
-        i=2;
+        i=n-1;
 
         while(i>=1){
             int j=1;
