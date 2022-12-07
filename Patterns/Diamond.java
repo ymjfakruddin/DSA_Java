@@ -47,14 +47,6 @@ public class Diamond {
                 j++;
             }
 
-            // j=2;
-            // while(j>i){
-
-            //     if(j==2)
-            //         System.out.print("*");
-            //     j--;
-            // }
-
             i--;
             System.out.println();
         }
