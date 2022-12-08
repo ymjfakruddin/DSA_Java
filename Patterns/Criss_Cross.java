@@ -6,25 +6,22 @@ package Patterns;
 public class Criss_Cross {
     
     public static void main(String[] args) {
-        int n =6;
-        int i =1;
+        int n = 5;
+        int i=1;
         while(i<=n){
-            int j=0;
-            while(j<i){
-                System.out.print(" ");
-                j++;
-            }
-            
-            j=0;
-            while(j<=i){
-                if(i==j){
+            int j=1;
+            while(j<=n){
+                
+                if(i==j || i+j==n+1){
                     System.out.print("*");
+                }else{
+                    System.out.print(" ");
                 }
+                
                 j++;
             }
-            
             i++;
             System.out.println();
-        }             
+        }
     }
 }
