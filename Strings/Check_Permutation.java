@@ -20,6 +20,7 @@ public class Check_Permutation {
                 System.out.println("false");
                 return;
             }
+            System.out.println(" Hi Adil ")
         }
 
         System.out.println("true");
